@@ -1,0 +1,95 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+a {
+    color: #FFFAFA;
+}
+
+a:hover {
+    color: #8c8c8c;
+} 
+
+/*Header*/
+.navbar .navbar-nav .nav-link {
+    color: #FFFAFA;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar-nav .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+.top-menu li a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #FFFAFA;
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+
+}
+
+.top-menu li a:hover::after{
+    transform: scale(1);
+}
+/*Header*/
+
+.btn-primary {
+    margin-top:15px;
+}
+
+.btn-enter {
+    text-align: center;
+}
+
+/*footer*/
+.footer {
+    background-color: #000;
+}
+
+.footer h4 {
+    color: #FFFAFA;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #FFFAFA;
+    padding-bottom: 3px;
+}
+/*footer*/
+
+
+/*carousel*/
+
+.my-carousel {
+    padding: 0;
+}
+
+.my-carousel .carousel-item {
+    display: flex;
+    max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+    object-fit: cover;
+}
+
+/*carousel*/
